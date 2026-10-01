@@ -7,7 +7,7 @@ imageBranch: master
 nameSuffix: "90380"
 forks:
   - service: partition
-    repo: danielscholl-osdu/partition
+    repo: Azure/osdu-spi-partition
     canonicalSource: fork
   - service: entitlements
     repo: danielscholl-osdu/entitlements
