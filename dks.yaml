@@ -1,5 +1,5 @@
 env: dks
-stackVersion: v0.24.1
+stackVersion: v0.25.0
 profile: core
 location: westus3
 ingressMode: azure
