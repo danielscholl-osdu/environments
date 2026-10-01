@@ -1,0 +1,23 @@
+env: dks
+stackVersion: v0.24.1
+profile: core
+location: westus3
+ingressMode: azure
+imageBranch: master
+nameSuffix: "90380"
+forks:
+  - service: partition
+    repo: danielscholl-osdu/partition
+    canonicalSource: fork
+  - service: entitlements
+    repo: danielscholl-osdu/entitlements
+    canonicalSource: fork
+  - service: legal
+    repo: danielscholl-osdu/legal
+    canonicalSource: fork
+  - service: schema
+    repo: danielscholl-osdu/schema
+    canonicalSource: fork
+  - service: file
+    repo: danielscholl-osdu/file
+    canonicalSource: fork
